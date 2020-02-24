@@ -1,7 +1,27 @@
 @import "nav.css";
 
+/* start of header img css */
 .main-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/images/The_North.jpg");
+  background-size: cover;
+  height: 500px;
+  background-position: left;
+  color: white;
+  display: flex;
 }
+
+h1 {
+  display: block;
+  text-align: right;
+  font-size: 50px;
+  letter-spacing: 6px;
+  text-shadow: black 1px 0 10px;
+  text-transform: uppercase;
+}
+/* End of header img css */
 
 .cities-container {
 }
