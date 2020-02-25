@@ -1,5 +1,6 @@
 @import "nav.css";
 @import "cities.css";
+@import "landmarks.css";
 
 /* start of header img css */
 .main-image {
@@ -27,8 +28,7 @@ h1 {
 .cities-container {
 }
 
-.landmarks-container {
-}
+
 
 .hos-container {
 }
