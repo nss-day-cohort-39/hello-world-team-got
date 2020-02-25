@@ -1,5 +1,7 @@
 @import "nav.css";
-@import "footer.css";
+@import "cities.css";
+@import "landmarks.css";
+
 /* start of header img css */
 .main-image {
   display: flex;
@@ -26,11 +28,11 @@ h1 {
 .cities-container {
 }
 
-.landmarks-container {
-}
+
 
 .hos-container {
 }
+
 .card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
