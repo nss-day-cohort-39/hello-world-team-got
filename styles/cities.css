@@ -28,6 +28,10 @@
 
 .cities__img {
     background-color: darkseagreen;
+    border-radius: 5px 5px 0 0;
+    width: 50%;
+    height: 40%;
+    margin: auto;
 }
 
 .cities__name {
