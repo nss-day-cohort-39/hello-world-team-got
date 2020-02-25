@@ -1,7 +1,10 @@
-.navigation {
-
-}
 
 li {
-    display: inline
+    display: inline;
+    
+    }
+
+.icon{
+    width: 50px;
 }
+
