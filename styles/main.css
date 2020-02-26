@@ -1,6 +1,7 @@
 @import "nav.css";
 @import "cities.css";
 @import "landmarks.css";
+@import "lannister.css";
 @import "footer.css";
 @import "vale.css";
 
@@ -75,12 +76,16 @@ img {
   background-color: #fff;
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
-header{
+body {
+  margin: 0px;
+  background-image: url(../images/fresh_snow.png);
+}
+
+header {
   text-align: center;
   background-color: burlywood;
-  
 }
