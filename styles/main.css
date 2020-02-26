@@ -1,6 +1,7 @@
 @import "nav.css";
 @import "cities.css";
 @import "landmarks.css";
+@import "lannister.css";
 
 /* start of header img css */
 .main-image {
@@ -73,6 +74,11 @@ img {
   background-color: #fff;
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
   flex-wrap: wrap;
+}
+
+body {
+  margin: 0px;
+  background-image: url(../images/fresh_snow.png);
 }

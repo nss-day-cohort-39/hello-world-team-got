@@ -1,0 +1,11 @@
+.main-image-lannister {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/images/The_Westerlands.png");
+  background-size: cover;
+  height: 375px;
+  background-position: left;
+  color: white;
+  display: flex;
+}
