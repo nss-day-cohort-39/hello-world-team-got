@@ -1,5 +1,5 @@
 .footer {
-    display: inline
+    display: inline;
 }
 .fa {
     padding: 20px;
@@ -21,4 +21,7 @@
     background: #55ACEE;
     color: white;
   }
+.navigation {
+  display: inline;
+}
   
