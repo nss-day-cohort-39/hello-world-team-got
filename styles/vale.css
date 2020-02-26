@@ -1,17 +1,14 @@
 @import "nav.css";
 @import "cities.css";
 @import "landmarks.css";
-@import "houseOfBaratheon.css";
-@import "lannister.css";
 @import "footer.css";
-@import "vale.css";
 
 /* start of header img css */
-.main-image {
+.main-image-vale {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("/images/The_North.jpg");
+  background: url("https://vignette.wikia.nocookie.net/gameofthrones/images/d/d7/Vale_of_Arryn.png/revision/latest?cb=20120719201619");
   background-size: cover;
   height: 500px;
   background-position: left;
@@ -77,27 +74,12 @@ img {
   background-color: #fff;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
   flex-wrap: wrap;
 }
-.main-image-bar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url("/images/Baratheon_Map.png");
-  background-size: cover;
-  height: 500px;
-  background-position: left;
-  color: white;
-  display: flex;
-}
 
-body {
-  margin: 0px;
-  background-image: url(../images/fresh_snow.png);
-}
-
-header {
+header{
   text-align: center;
   background-color: burlywood;
+  
 }

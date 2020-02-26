@@ -1,5 +1,5 @@
 .footer {
-    display: inline
+    display: inline;
 }
 .fa {
     padding: 20px;
@@ -21,6 +21,7 @@
     background: #55ACEE;
     color: white;
   }
-  .fa:hover {
-    opacity: 0.7;
+.navigation {
+  display: inline;
 }
+  
