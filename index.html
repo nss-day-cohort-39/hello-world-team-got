@@ -30,7 +30,7 @@
     <main class="main-container">
       <!-- Start main-image -->
       <!-- Add country name over image -->
-      <div class="main-image"><h1>"Winter is coming"</h1></div>
+    <div class="main-image"><h1>"Winter is coming"</h1></div>
       <!-- End of main-image -->
 
       <b><h1>The North</h1></b>
@@ -40,46 +40,47 @@
 
         <div class="card">
           <img class="image" src="https://vignette.wikia.nocookie.net/gameofthrones/images/1/1f/801_Winterfell_Overview.png/revision/latest/scale-to-width-down/700?cb=20190415031728" />
-          <div class="cities__name">
+          <div class="container">
             <b><h4>Cities</h4></b>
-            <ul>
-                <!-- <b><h4>Cities</h4></b> -->
-                <li>Winterfell</li>
-                <li>White Harbor</li>
-            </ul>
-          </div>
-        </div>
-        <div class="card">
-            <img class="image" src="https://i1.wp.com/blog.cottages.com/wp-content/uploads/2019/04/GettyImages-639049702-min.jpg?fit=1024%2C683&ssl=1" alt="The-North"/>
-            <div class="container">
-                <b><h4>Landmarks</h4></b>
-              <h3><b>AKA The Downhill Strand (Dragonstone)</b></h3>
-              <p class="preview">Downhill is a beach at Northern Ireland that stretches for approximately 7 miles (11 kilometers); designated as an Area of Special Scientific Interest and a Special Area of Conservation, the scenic beach draws visitors from all over to County Londonderry and the small nearby town of Castlerock. In the Game of Thrones universe, the beach is visited by Stannis Baratheon and Melisandre where they burn the Seven Idols of Westeros and the Red Priestess first proclaims her oft-repeated catchphrase.</p>
+
+            <button id="button--cities">Details</button>
+            <div class="cityList">
+              <!-- <b><h4>Cities</h4></b> -->
+
             </div>
           </div>
-          <div class="card">
+        </div>
+
+        <div class="card">
+          <img class="image" src="https://i1.wp.com/blog.cottages.com/wp-content/uploads/2019/04/GettyImages-639049702-min.jpg?fit=1024%2C683&ssl=1" alt="The-North"/>
+          <b><h4>Landmarks</h4></b>
+          <button id="button--landmarks">Details</button>
+            <div class="landmarkList">
+              <!-- <h3><b>AKA The Downhill Strand (Dragonstone)</b></h3>
+                <p class="preview">Downhill is a beach at Northern Ireland that stretches for approximately 7 miles (11 kilometers); designated as an Area of Special Scientific Interest and a Special Area of Conservation, the scenic beach draws visitors from all over to County Londonderry and the small nearby town of Castlerock. In the Game of Thrones universe, the beach is visited by Stannis Baratheon and Melisandre where they burn the Seven Idols of Westeros and the Red Priestess first proclaims her oft-repeated catchphrase.</p> -->
+            </div>
+        </div>
+
+        <div class="card">
             <img
               src="./images/rob-stark.jpeg"
               alt="The-North"
               style="width:100%"
-            />
-            <div class="container">
-              <h4><b>Heads of State</b></h4>
-              <ul>
-                <li>
-                  Torrhen Stark
-                </li>
-                <li>Bran the Builder</li>
-                <li>Rob Stark</li>
-              </ul>
-            </div>
+              />
+          <div class="container">
+                <h4><b>Heads of State</b></h4>
+                <button id="button--HOS">Details</button>
+                <div class="HOSList">
+              </div>
           </div>
+        </div>
+
       </section> 
       <!-- End of HOS cards  -->
     </div>
      
       
-      <section class="hos-container"></section>
+      
       <!-- End of cards -->
       
       <!-- Start of footer -->
@@ -92,5 +93,7 @@
         <a href="https://www.facebook.com/GameOfThrones/" target="blank" href="#" class="fa fa-facebook"></a>
       <em>Copyright &copy; 2008, The Dragon. All Rights To kill you with wildfire.</em>
     </div>
+  
+    <script type="module" src="./scripts/North/main.js"></script>
   </body>
 </html>
