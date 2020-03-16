@@ -29,4 +29,4 @@ Your team is going to build a travel brochure site. Each of you will pick a coun
 
 1. Your team must decide on a consistent experience across all pages. Fonts, color scheme, layout, and structure.
 
-![layout of hello world](./hello-world-layout.png)
+![layout of hello world](./hello-world-layout.png)# Hello-world-teamGOT
